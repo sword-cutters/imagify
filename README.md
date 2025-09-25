@@ -1,26 +1,12 @@
-# imagify
-Imagify AI is a dynamic and responsive full-stack web application built with the MERN stack (MongoDB, Express.js, React, Node.js). It brings the power of AI to your browser, allowing users to generate stunning and imaginative images from simple text prompts using the ClipDrop Stable Diffusion API.
+# React + Vite
 
-The application features a modern, clean UI where users can not only create images but also share them with a community gallery, fostering a space for inspiration and discovery.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Key Features 🚀
+Currently, two official plugins are available:
 
-AI Image Generation: Enter a detailed text prompt to generate a unique, high-quality image using the ClipDrop API.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Community Showcase: Explore a public gallery of images created and shared by other users.
+## Expanding the ESLint configuration
 
-Prompt Discovery: Hover over any image in the gallery to view the creative prompt that was used to generate it.
-
-Share Your Creations: Seamlessly post your newly generated images to the community showcase with your name and prompt.
-
-Fully Responsive: The user interface is built with Tailwind CSS for a flawless experience on both desktop and mobile devices.
-
-## Tech Stack 💻
-
-Frontend: React, Vite, Tailwind CSS
-
-Backend: Node.js, Express.js
-
-Database: MongoDB (with Mongoose)
-
-AI Integration: ClipDrop API (by Stability AI)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
